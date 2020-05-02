@@ -35,5 +35,5 @@ for i in range(0, max_radius, step):
     draw.ellipse((center - i, center - i, center + i, center + i), fill=color_2)
     images.append(im)
 
-images[0].save('C:/pac_img/Circle.gif',
+images[0].save('C:/Users/burro/Desktop/Personal Portfolio/Braydon-s_Portfolio/Python/Circle.gif',
                save_all=True, append_images=images[1:], optimize=False, duration=40, loop=0)
